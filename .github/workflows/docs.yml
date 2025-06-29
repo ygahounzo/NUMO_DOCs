@@ -2,7 +2,7 @@ name: Build and Deploy Sphinx Docs
 
 on:
   push:
-    branches: ["dev"]  # Runs on push to main branch
+    branches: ["main"]  # Runs on push to main branch
   workflow_dispatch:  # Allows manual triggering
 
 permissions:
