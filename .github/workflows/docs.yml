@@ -43,7 +43,7 @@ jobs:
           path: docs/build/html  # This is where Sphinx outputs HTML files
 
       - name: List bin directory contents after compilation
-        run: ls -al docs/build/html
+        run: find docs/build/html
 
   deploy:
     environment:
