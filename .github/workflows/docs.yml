@@ -54,7 +54,7 @@ jobs:
     steps:
 
       - name: List bin directory contents after compilation
-        run: find $GITHUB_WORKSPACE/docs/build/html
+        run: find docs/build/html
 
       - name: Deploy to GitHub Pages
         id: deployment
