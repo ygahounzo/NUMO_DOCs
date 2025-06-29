@@ -41,6 +41,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/build/html  # This is where Sphinx outputs HTML files
+      - name: Listdocs after build
+        run: ls -al docs/build/html
+
 
   deploy:
     needs: build
