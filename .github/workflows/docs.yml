@@ -58,10 +58,10 @@ jobs:
       - name: Upload documentation artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/build/html  # This is where Sphinx outputs HTML files
+          path: $GITHUB_WORKSPACE/docs/build/html  # This is where Sphinx outputs HTML files
 
       - name: List bin directory contents after compilation
-        run: find docs/build/html
+        run: find $GITHUB_WORKSPACE/docs/build/html
 
       - name: Deploy to GitHub Pages
         id: deployment
