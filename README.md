@@ -1,6 +1,6 @@
 
 
-![docs](https://ygahounzo.github.io/NUMO_DOCs/actions/workflows/docs.yml/badge.svg)
+[![docs](https://ygahounzo.github.com/NUMO_DOCs/actions/workflows/docs.yml/badge.svg)](https://ygahounzo.github.com/NUMO_DOCs/actions/workflows/docs.yml)
 
 # h-NUMO
 
