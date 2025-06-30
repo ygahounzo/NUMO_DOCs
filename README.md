@@ -1,6 +1,8 @@
-# h-NUMO
 
-[![docs](https://ygahounzo.github.io/NUMO_DOCs/actions/workflows/docs.yml/badge.svg?branch=main)](https://ygahounzo.github.io/NUMO_DOCs/actions/workflows/docs.yml)
+
+[![docs](https://ygahounzo.github.io/NUMO_DOCs)](https://ygahounzo.github.io/NUMO_DOCs)
+
+# h-NUMO
 
 Hydrostatic version of the Non-hydrostatic Model of the Ocean
 
